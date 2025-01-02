@@ -1,0 +1,15 @@
+//INPUT
+package akhilesh;
+class A{
+  protected void show(){
+        System.out.println("Learn Coding");
+    }
+}
+class B extends A{
+    public static void main(String[] args){
+        B r=new B();
+        r.show();
+    }
+}
+//OUTPUT
+Learn Coding
